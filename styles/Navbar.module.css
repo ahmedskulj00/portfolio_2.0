@@ -1,6 +1,7 @@
 .navbar_container {
   width: 100vw;
   height: 80px;
+  background-color: #28293e;
 }
 .navbar_inner_container {
   height: 100%;
@@ -12,6 +13,7 @@
 }
 .navbar_logo {
   font-size: 45px;
+  color: white;
 }
 .navbar_links {
   width: 350px;
@@ -24,13 +26,19 @@
   border: none;
   font-size: 16px;
   cursor: pointer;
+  color: white;
 }
 .navbar_contact_container button {
   width: 148px;
   height: 38px;
   background: none;
   outline: none;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 6px;
   cursor: pointer;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+.navbar_contact_container button:hover {
+  background-color: #ef6d58;
 }

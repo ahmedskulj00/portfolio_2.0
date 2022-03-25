@@ -1,0 +1,56 @@
+.about_container {
+  height: 80vh;
+  width: 100vw;
+  background-color: #28293e;
+}
+.about_inner_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+}
+.about_inner_content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.about_text h4 {
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.19em;
+  line-height: 32px;
+  text-align: left;
+  color: #ef6d58;
+  margin-bottom: 20px;
+}
+.about_job_title {
+  font-weight: normal;
+  font-size: 66px;
+  letter-spacing: -0.03em;
+  line-height: 80px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.about_desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.64);
+  margin-bottom: 20px;
+}
+.about_button {
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+  background: #ef6d58;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
