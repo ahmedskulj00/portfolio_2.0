@@ -18,7 +18,7 @@
 .navbar_links {
   width: 350px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .navbar_links button {
   outline: none;
