@@ -1,9 +1,9 @@
-.navbar_container {
+.container {
   width: 100vw;
   height: 80px;
   background-color: #28293e;
 }
-.navbar_inner_container {
+.inner_container {
   height: 100%;
   width: 95%;
   margin: 0 auto;
@@ -11,16 +11,16 @@
   align-items: center;
   justify-content: space-between;
 }
-.navbar_logo {
+.logo {
   font-size: 45px;
   color: white;
 }
-.navbar_links {
+.links {
   width: 350px;
   display: flex;
   justify-content: space-around;
 }
-.navbar_links button {
+.links button {
   outline: none;
   background: none;
   border: none;
@@ -28,7 +28,7 @@
   cursor: pointer;
   color: white;
 }
-.navbar_contact_container button {
+.contact_container button {
   width: 148px;
   height: 38px;
   background: none;
@@ -39,6 +39,6 @@
   color: white;
   transition: background-color 0.2s ease-in-out;
 }
-.navbar_contact_container button:hover {
+.contact_container button:hover {
   background-color: #ef6d58;
 }

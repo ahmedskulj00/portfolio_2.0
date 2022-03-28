@@ -1,24 +1,24 @@
-.about_container {
+.container {
   height: 80vh;
   width: 100vw;
   background-color: #28293e;
 }
-.about_inner_container {
+.inner_container {
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
 }
-.about_inner_content {
+.inner_content {
   width: 85%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
-.about_text {
+.text {
   align-self: center;
 }
-.about_text h4 {
+.text h4 {
   font-weight: normal;
   font-size: 16px;
   letter-spacing: 0.19em;
@@ -27,7 +27,7 @@
   color: #ef6d58;
   margin-bottom: 20px;
 }
-.about_job_title {
+.job_title {
   font-weight: normal;
   font-size: 66px;
   letter-spacing: -0.03em;
@@ -36,7 +36,7 @@
   color: #fff;
   margin-bottom: 20px;
 }
-.about_desc {
+.desc {
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
@@ -44,7 +44,7 @@
   color: rgba(255, 255, 255, 0.64);
   margin-bottom: 20px;
 }
-.about_button {
+.button {
   width: 154px;
   height: 48px;
   border-radius: 6px;

@@ -2,15 +2,15 @@ import React from "react";
 import styles from "../../styles/Navbar.module.css";
 const Navbar = () => {
   return (
-    <div className={styles.navbar_container}>
-      <div className={styles.navbar_inner_container}>
-        <div className={styles.navbar_logo}>λ</div>
-        <div className={styles.navbar_links}>
+    <div className={styles.container}>
+      <div className={styles.inner_container}>
+        <div className={styles.logo}>λ</div>
+        <div className={styles.links}>
           <button>About</button>
           <button>Skills</button>
           <button>Work</button>
         </div>
-        <div className={styles.navbar_contact_container}>
+        <div className={styles.contact_container}>
           <button>Contact</button>
         </div>
       </div>
