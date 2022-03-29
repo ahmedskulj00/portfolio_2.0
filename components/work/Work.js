@@ -1,6 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "../../styles/Work.module.css";
+import Todo from "../../images/todo.png";
+import Quiz from "../../images/quiz.png";
+import Crypto from "../../images/crypto.png";
 
 const Work = () => {
   return (
@@ -16,6 +20,17 @@ const Work = () => {
               <button>EXPLORE MORE</button>
             </Link>
           </div>
+        </div>
+      </div>
+      <div className={styles.grid_container}>
+        <div className={styles.grid_item}>
+          <Image src={Todo} />
+        </div>
+        <div className={styles.grid_item}>
+          <Image src={Quiz} />
+        </div>
+        <div className={styles.grid_item}>
+          <Image src={Crypto} />
         </div>
       </div>
     </div>
