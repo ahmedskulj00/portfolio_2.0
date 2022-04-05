@@ -1,0 +1,44 @@
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.inner_container {
+  padding-top: 100px;
+}
+
+.greeting_container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.short_description {
+  font-weight: 300;
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.button_inner_container {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
