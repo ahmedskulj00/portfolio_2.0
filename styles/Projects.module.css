@@ -12,6 +12,19 @@
   color: #fff;
 }
 
+.title_container p {
+  width: 1223px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+  margin-bottom: -20px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+}
+
 .grid_container {
   display: grid;
   margin: 0 auto;

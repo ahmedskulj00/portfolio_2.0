@@ -1,0 +1,75 @@
+.container {
+  width: 100vw;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.inner_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact_message {
+  width: 525px;
+  height: 64px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: left;
+  color: #fff;
+}
+
+.email_container {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.icon_container {
+  width: 49px;
+  height: 49px;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.email_info h5 {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #333333;
+}
+
+.email_info p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
