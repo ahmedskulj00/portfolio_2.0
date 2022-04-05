@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import DottedPart from "../components/helpers/DottedPart";
 import styles from "../styles/Home.module.css";
 import About from "../components/About";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
         <DottedPart />
       </div>
       <About />
+      <div className={styles.dottedpart_container}>
+        <DottedPart />
+      </div>
+      <Skills />
     </div>
   );
 }
