@@ -1,0 +1,26 @@
+.container {
+  width: 199px;
+  height: 64px;
+  background: #6811eb;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+  line-height: 2.9;
+  color: #fff;
+  position: relative;
+}
+.container::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 15px solid #6811eb;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}

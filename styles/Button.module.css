@@ -1,0 +1,21 @@
+.primary_button {
+  min-width: 148px;
+  min-height: 67px;
+  border-radius: 10px;
+  background: #6811eb;
+  border: none;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.secondary_button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  min-width: 241px;
+  min-height: 83px;
+  border-radius: 10px;
+}

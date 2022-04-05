@@ -1,0 +1,44 @@
+.main_textarea {
+  width: 858px;
+  height: 205px;
+  border-radius: 5px;
+  background: #000;
+  border: 1px solid #333;
+  resize: none;
+  padding-left: 18px;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.main_textarea::placeholder {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #707070;
+}
+
+.main_textarea:focus {
+  outline: none;
+}
+
+.main_input {
+  width: 414px;
+  height: 89px;
+  border-radius: 5px;
+  background: #000;
+  border: 1px solid #333;
+  padding-left: 18px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.main_input::placeholder {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #707070;
+}
+
+.main_input:focus {
+  outline: none;
+}
