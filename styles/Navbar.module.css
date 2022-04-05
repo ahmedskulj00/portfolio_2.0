@@ -1,0 +1,43 @@
+.container {
+  width: 100vw;
+}
+
+.inner_container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 80px;
+  text-align: left;
+  color: #fff;
+}
+
+.link_container {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  margin-right: 50px;
+}
+
+.links li {
+  margin-right: 50px;
+}
+
+.links li a {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  border-bottom: 1px solid #fff;
+}
