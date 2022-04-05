@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
       </div>
       <Skills />
       <Experience />
+      <div className={styles.dottedpart_container}>
+        <DottedPart />
+      </div>
+      <Projects />
     </div>
   );
 }
