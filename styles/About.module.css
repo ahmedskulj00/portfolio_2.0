@@ -1,0 +1,33 @@
+.container {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.inner_container {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_me {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.text_container p {
+  width: 709px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 20px;
+}
