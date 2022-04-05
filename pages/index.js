@@ -4,6 +4,7 @@ import DottedPart from "../components/helpers/DottedPart";
 import styles from "../styles/Home.module.css";
 import About from "../components/About";
 import Skills from "../components/Skills";
+import Experience from "../components/Experience";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <DottedPart />
       </div>
       <Skills />
+      <Experience />
     </div>
   );
 }
