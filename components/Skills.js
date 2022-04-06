@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Skills.module.css";
 import C from "../images/c.png";
 import CSS from "../images/css.png";
@@ -9,15 +9,21 @@ import Node from "../images/node.png";
 import ReactIcon from "../images/react.png";
 import SQL from "../images/sql.png";
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className={styles.container}>
       <div className={styles.inner_container}>
-        <div className={styles.title_container}>
+        <div className={styles.title_container} data-aos="fade">
           <h3>My Skills</h3>
         </div>
-        <div className={styles.grid_container}>
+        <div className={styles.grid_container} data-aos="fade">
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
               <Image src={HTML} />

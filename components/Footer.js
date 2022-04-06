@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Footer.module.css";
 import Image from "next/image";
 import Instagram from "../images/insta.png";
 import LinkedIn from "../images/linkedin.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-aos="slide-right">
       <div className={styles.inner_container}>
         <div className={styles.socials}>
           <a

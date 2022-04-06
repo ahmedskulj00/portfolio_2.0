@@ -1,11 +1,17 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Navbar.module.css";
 import Button from "./helpers/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Navbar = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-aos="fade-right">
       <div className={styles.inner_container}>
         <div className={styles.logo}>λ</div>
         <div className={styles.link_container}>

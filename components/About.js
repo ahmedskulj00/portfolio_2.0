@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/About.module.css";
 import Image from "next/image";
 import about_image from "../images/about_image.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      data-aos="slide-right"
+      data-aos-duration="1000"
+    >
       <div className={styles.inner_container}>
         <div className={styles.image_container}>
           <Image src={about_image} layout="fixed" width={450} height={450} />

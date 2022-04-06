@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Contact.module.css";
 import Image from "next/image";
 import Email from "../images/email.png";
 import Input from "../components/helpers/Input";
 import Button from "./helpers/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-aos="slide-right">
       <div className={styles.inner_container}>
         <div className={styles.text_section}>
           <div className={styles.title_container}>

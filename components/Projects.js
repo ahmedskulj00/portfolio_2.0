@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 import Movie from "../images/movie.png";
@@ -8,20 +8,26 @@ import Timeline from "../images/timeline.png";
 import HistoryQuiz from "../images/history.png";
 import TicTacToe from "../images/tictactoe.png";
 import Button from "./helpers/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Projects = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className={styles.container}>
       <div className={styles.inner_container}>
         <div className={styles.title_container}>
-          <h3>My Projects</h3>
-          <p>
+          <h3 data-aos="fade">My Projects</h3>
+          <p data-aos="fade">
             Over time I have created over 20+ repositories on my GitHub profile.
             Here you can see some of my projects, to see all of them make sure
             to check my GitHub profile
           </p>
         </div>
-        <div className={styles.grid_container}>
+        <div className={styles.grid_container} data-aos="fade">
           <div className={styles.grid_item}>
             <Image src={Movie} />
             <a
@@ -86,7 +92,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className={styles.button_container}>
+        <div className={styles.button_container} data-aos="fade">
           <a href="https://github.com/ahmedskulj00" target="_blank">
             <Button
               text="View All"
