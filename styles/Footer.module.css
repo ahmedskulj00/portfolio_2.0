@@ -53,3 +53,27 @@
     margin-right: 30px;
   }
 }
+
+@media (min-width: 810px) and (max-width: 1440px) {
+  .container {
+    width: 100vw;
+    margin-top: 50px;
+  }
+
+  .socials {
+    width: 50%;
+    height: 83px;
+    background: #6811eb;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .insta_link {
+    margin-right: 30px;
+  }
+
+  .linkedin_link {
+    margin-right: 30px;
+  }
+}
