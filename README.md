@@ -18,3 +18,6 @@ I have used different technologies to create this site, and they are:
 - [Next.js](https://nextjs.org/)
 
 ## Snippet of the site
+![Screenshot_1](https://user-images.githubusercontent.com/66512187/161989026-063479cd-cb79-4618-917a-0f0183c7e88e.png)
+
+### If you want you can check the site here: www.ahmedskulj.com
