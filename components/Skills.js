@@ -26,49 +26,49 @@ const Skills = () => {
         <div className={styles.grid_container} data-aos="fade">
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
-              <Image src={HTML} />
+              <Image src={HTML} alt="html" />
             </div>
             <div className={styles.skill_name}>HTML</div>
           </div>
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
-              <Image src={CSS} />
+              <Image src={CSS} alt="css" />
             </div>
             <div className={styles.skill_name}>CSS</div>
           </div>
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
-              <Image src={JS} />
+              <Image src={JS} alt="js" />
             </div>
             <div className={styles.skill_name}>JavaScript</div>
           </div>
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
-              <Image src={ReactIcon} />
+              <Image src={ReactIcon} alt="react" />
             </div>
             <div className={styles.skill_name}>React</div>
           </div>
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
-              <Image src={SQL} />
+              <Image src={SQL} alt="sql" />
             </div>
             <div className={styles.skill_name}>SQL</div>
           </div>
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
-              <Image src={Node} />
+              <Image src={Node} alt="node" />
             </div>
             <div className={styles.skill_name}>Node.js</div>
           </div>
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
-              <Image src={C} />
+              <Image src={C} alt="c" />
             </div>
             <div className={styles.skill_name}>C++</div>
           </div>
           <div className={styles.grid_item}>
             <div className={styles.icon_container}>
-              <Image src={NextIcon} />
+              <Image src={NextIcon} alt="next.js" />
             </div>
             <div className={styles.skill_name}>Next.js</div>
           </div>

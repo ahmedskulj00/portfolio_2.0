@@ -30,7 +30,7 @@ const Contact = () => {
           </div>
           <div className={styles.email_container}>
             <div className={styles.icon_container}>
-              <Image src={Email} />
+              <Image src={Email} alt="email_icon" />
             </div>
             <div className={styles.email_info}>
               <h5>Email</h5>

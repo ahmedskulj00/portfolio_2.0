@@ -29,10 +29,11 @@ const Projects = () => {
         </div>
         <div className={styles.grid_container} data-aos="fade">
           <div className={styles.grid_item}>
-            <Image src={Movie} />
+            <Image src={Movie} alt="movie_app" />
             <a
               href="https://github.com/ahmedskulj00/react-movie-app"
               target="_blank"
+              rel="noreferrer"
             >
               <div className={styles.image_overlay}>
                 <h4>Movie App</h4>
@@ -40,10 +41,11 @@ const Projects = () => {
             </a>
           </div>
           <div className={styles.grid_item}>
-            <Image src={Expenses} />
+            <Image src={Expenses} alt="expenses_app" />
             <a
               href="https://github.com/ahmedskulj00/react-expense-tracker"
               target="_blank"
+              rel="noreferrer"
             >
               <div className={styles.image_overlay}>
                 <h4>Expense Tracker</h4>
@@ -51,10 +53,11 @@ const Projects = () => {
             </a>
           </div>
           <div className={styles.grid_item}>
-            <Image src={Crypto} />
+            <Image src={Crypto} alt="crypto_app" />
             <a
               href="https://github.com/ahmedskulj00/react-crypto-info"
               target="_blank"
+              rel="noreferrer"
             >
               <div className={styles.image_overlay}>
                 <h4>Crypto Info</h4>
@@ -62,18 +65,23 @@ const Projects = () => {
             </a>
           </div>
           <div className={styles.grid_item}>
-            <Image src={Timeline} />
-            <a href="https://github.com/ahmedskulj00/Timeline" target="_blank">
+            <Image src={Timeline} alt="timeline_app" />
+            <a
+              href="https://github.com/ahmedskulj00/Timeline"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={styles.image_overlay}>
                 <h4>Timeline</h4>
               </div>
             </a>
           </div>
           <div className={styles.grid_item}>
-            <Image src={HistoryQuiz} />
+            <Image src={HistoryQuiz} alt="history_quiz" />
             <a
               href="https://github.com/ahmedskulj00/react-quiz-app"
               target="_blank"
+              rel="noreferrer"
             >
               <div className={styles.image_overlay}>
                 <h4>History Quiz</h4>
@@ -81,10 +89,11 @@ const Projects = () => {
             </a>
           </div>
           <div className={styles.grid_item}>
-            <Image src={TicTacToe} />
+            <Image src={TicTacToe} alt="tictactoe" />
             <a
               href="https://github.com/ahmedskulj00/Javascript-TicTacToe"
               target="_blank"
+              rel="noreferrer"
             >
               <div className={styles.image_overlay}>
                 <h4>Tic Tac Toe</h4>
@@ -93,7 +102,11 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.button_container} data-aos="fade">
-          <a href="https://github.com/ahmedskulj00" target="_blank">
+          <a
+            href="https://github.com/ahmedskulj00"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Button
               text="View All"
               isPrimary={true}

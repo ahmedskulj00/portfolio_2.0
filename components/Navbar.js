@@ -75,7 +75,13 @@ const Navbar = () => {
           />
         </div>
         <div className={styles.hamburger_menu} onClick={() => setOpen(!open)}>
-          <Image src={Hamburger} layout="fixed" width={40} height={40} />
+          <Image
+            src={Hamburger}
+            layout="fixed"
+            width={40}
+            height={40}
+            alt="hamburger_menu"
+          />
           {open === true ? (
             <div className={styles.hamburger_options}>
               <button

@@ -18,6 +18,7 @@ const Footer = () => {
           <a
             href="https://www.instagram.com/ahmedskulj00/"
             target="_blank"
+            rel="noreferrer"
             className={styles.insta_link}
           >
             <Image src={Instagram} alt="Instagram" />
@@ -25,6 +26,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/ahmedskulj/"
             target="_blank"
+            rel="noreferrer"
             className={styles.linkedin_link}
           >
             <Image src={LinkedIn} alt="LinkedIn" />
