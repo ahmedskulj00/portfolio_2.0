@@ -16,13 +16,25 @@ const Hero = () => {
         </p>
         <div className={styles.button_container}>
           <div className={styles.button_inner_container}>
+            <a href="SkuljAhmed_CV.pdf" download>
+              <Button
+                text="Download CV"
+                isPrimary={true}
+                width="241px"
+                height="83px"
+              />
+            </a>
             <Button
-              text="Download CV"
-              isPrimary={true}
-              width="241px"
-              height="83px"
+              text="My Work"
+              onClick={() =>
+                window.scrollTo({
+                  top: document.getElementsByClassName(
+                    "Projects_container__8fvpl"
+                  )[0].offsetTop,
+                  behavior: "smooth",
+                })
+              }
             />
-            <Button text="My Work" />
           </div>
         </div>
       </div>
