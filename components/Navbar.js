@@ -1,11 +1,13 @@
-import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/Navbar.module.css";
 import Button from "./helpers/Button";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
+import Hamburger from "../images/hamburger.png";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
   useEffect(() => {
     AOS.init();
   }, []);
@@ -71,6 +73,62 @@ const Navbar = () => {
               })
             }
           />
+        </div>
+        <div className={styles.hamburger_menu} onClick={() => setOpen(!open)}>
+          <Image src={Hamburger} layout="fixed" width={40} height={40} />
+          {open === true ? (
+            <div className={styles.hamburger_options}>
+              <button
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.getElementsByClassName(
+                      "About_container__rRFE8"
+                    )[0].offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                About me
+              </button>
+              <button
+                onClick={() => {
+                  window.scrollTo({
+                    top: document.getElementsByClassName(
+                      "Skills_container__hZE7q"
+                    )[0].offsetTop,
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                Skills
+              </button>
+
+              <button
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.getElementsByClassName(
+                      "Projects_container__8fvpl"
+                    )[0].offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                Projects
+              </button>
+              <Button
+                text="Contact"
+                isPrimary={true}
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.getElementsByClassName(
+                      "Contact_container__u4Z1Q"
+                    )[0].offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              />
+            </div>
+          ) : null}
         </div>
       </div>
     </div>
