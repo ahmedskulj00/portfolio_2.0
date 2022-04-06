@@ -48,7 +48,6 @@
 
 .grid_item:hover .image_overlay {
   display: flex;
-  cursor: pointer;
 }
 
 .grid_item img {
@@ -73,14 +72,6 @@
   color: #fff;
   font-weight: 600;
   font-size: 50px;
-}
-
-.image_overlay a {
-  color: #fff;
-  font-weight: 600;
-  font-size: 30px;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 .button_container {

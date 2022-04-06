@@ -24,75 +24,66 @@ const Projects = () => {
         <div className={styles.grid_container}>
           <div className={styles.grid_item}>
             <Image src={Movie} />
-            <div className={styles.image_overlay}>
-              <h4>Movie App</h4>
-              <a
-                href="https://github.com/ahmedskulj00/react-movie-app"
-                target="_blank"
-              >
-                Check Here
-              </a>
-            </div>
+            <a
+              href="https://github.com/ahmedskulj00/react-movie-app"
+              target="_blank"
+            >
+              <div className={styles.image_overlay}>
+                <h4>Movie App</h4>
+              </div>
+            </a>
           </div>
           <div className={styles.grid_item}>
             <Image src={Expenses} />
-            <div className={styles.image_overlay}>
-              <h4>Expense Tracker</h4>
-              <a
-                href="https://github.com/ahmedskulj00/react-expense-tracker"
-                target="_blank"
-              >
-                Check Here
-              </a>
-            </div>
+            <a
+              href="https://github.com/ahmedskulj00/react-expense-tracker"
+              target="_blank"
+            >
+              <div className={styles.image_overlay}>
+                <h4>Expense Tracker</h4>
+              </div>
+            </a>
           </div>
           <div className={styles.grid_item}>
             <Image src={Crypto} />
-            <div className={styles.image_overlay}>
-              <h4>Crypto Info</h4>
-              <a
-                href="https://github.com/ahmedskulj00/react-crypto-info"
-                target="_blank"
-              >
-                Check Here
-              </a>
-            </div>
+            <a
+              href="https://github.com/ahmedskulj00/react-crypto-info"
+              target="_blank"
+            >
+              <div className={styles.image_overlay}>
+                <h4>Crypto Info</h4>
+              </div>
+            </a>
           </div>
           <div className={styles.grid_item}>
             <Image src={Timeline} />
-            <div className={styles.image_overlay}>
-              <h4>Timeline</h4>
-              <a
-                href="https://github.com/ahmedskulj00/Timeline"
-                target="_blank"
-              >
-                Check Here
-              </a>
-            </div>
+            <a href="https://github.com/ahmedskulj00/Timeline" target="_blank">
+              <div className={styles.image_overlay}>
+                <h4>Timeline</h4>
+              </div>
+            </a>
           </div>
           <div className={styles.grid_item}>
             <Image src={HistoryQuiz} />
-            <div className={styles.image_overlay}>
-              <h4>History Quiz</h4>
-              <a
-                href="https://github.com/ahmedskulj00/react-quiz-app"
-                target="_blank"
-              >
-                Check Here
-              </a>
-            </div>
+            <a
+              href="https://github.com/ahmedskulj00/react-quiz-app"
+              target="_blank"
+            >
+              <div className={styles.image_overlay}>
+                <h4>History Quiz</h4>
+              </div>
+            </a>
           </div>
           <div className={styles.grid_item}>
             <Image src={TicTacToe} />
-            <div className={styles.image_overlay}>
-              <h4>Tic Tac Toe</h4>
-              <a
-                href="https://github.com/ahmedskulj00/Javascript-TicTacToe"
-                target="_blank"
-              >
-                Check Here
-              </a>
-            </div>
+            <a
+              href="https://github.com/ahmedskulj00/Javascript-TicTacToe"
+              target="_blank"
+            >
+              <div className={styles.image_overlay}>
+                <h4>Tic Tac Toe</h4>
+              </div>
+            </a>
           </div>
         </div>
         <div className={styles.button_container}>
