@@ -71,3 +71,33 @@
   width: 100%;
   margin-top: 30px;
 }
+
+@media screen and (max-width: 450px) {
+  .title_container p {
+    width: 90%;
+  }
+  .grid_container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .grid_item {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .grid_item img {
+    width: 100%;
+  }
+  .image_overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .image_overlay h4 {
+    font-size: 30px;
+  }
+  .button_container {
+    margin-top: 20px;
+  }
+  .grid_item:focus .image_overlay {
+    display: flex;
+  }
+}

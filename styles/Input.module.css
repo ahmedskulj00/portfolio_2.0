@@ -42,3 +42,12 @@
 .main_input:focus {
   outline: none;
 }
+
+@media screen and (max-width: 450px) {
+  .main_textarea {
+    width: 100%;
+  }
+  .main_input {
+    width: 100%;
+  }
+}

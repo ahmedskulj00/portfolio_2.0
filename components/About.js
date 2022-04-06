@@ -20,7 +20,7 @@ const About = () => {
     >
       <div className={styles.inner_container}>
         <div className={styles.image_container}>
-          <Image src={about_image} layout="fixed" width={450} height={450} />
+          <Image src={about_image} layout="fill" objectFit="cover" />
         </div>
         <div className={styles.text_container}>
           <h4 className={styles.about_me}>About me</h4>

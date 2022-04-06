@@ -13,6 +13,16 @@
   align-items: center;
 }
 
+.image_container {
+  position: relative;
+  width: 450px;
+  height: 450px;
+}
+
+.image_container img {
+  border-radius: 5%;
+}
+
 .about_me {
   font-weight: 600;
   font-size: 40px;
@@ -30,4 +40,25 @@
   text-align: left;
   color: #fff;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    margin-top: 350px;
+    margin-bottom: 350px;
+  }
+  .inner_container {
+    width: 90%;
+    flex-direction: column;
+  }
+  .image_container {
+    width: 100%;
+  }
+  .text_container {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .text_container p {
+    width: 100%;
+  }
 }

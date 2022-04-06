@@ -55,3 +55,13 @@
   text-align: left;
   color: #fff;
 }
+
+@media (max-width: 450px) {
+  .grid_container {
+    width: 90vw;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid_item {
+    width: 100%;
+  }
+}
