@@ -11,16 +11,60 @@ const Navbar = () => {
         <div className={styles.link_container}>
           <ul className={styles.links}>
             <li>
-              <a href="#">About me</a>
+              <button
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.getElementsByClassName(
+                      "About_container__rRFE8"
+                    )[0].offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                About me
+              </button>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <button
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.getElementsByClassName(
+                      "Skills_container__hZE7q"
+                    )[0].offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                Skills
+              </button>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <button
+                onClick={() =>
+                  window.scrollTo({
+                    top: document.getElementsByClassName(
+                      "Projects_container__8fvpl"
+                    )[0].offsetTop,
+                    behavior: "smooth",
+                  })
+                }
+              >
+                Projects
+              </button>
             </li>
           </ul>
-          <Button text="Contact" isPrimary={true} />
+          <Button
+            text="Contact"
+            isPrimary={true}
+            onClick={() =>
+              window.scrollTo({
+                top: document.getElementsByClassName(
+                  "Contact_container__u4Z1Q"
+                )[0].offsetTop,
+                behavior: "smooth",
+              })
+            }
+          />
         </div>
       </div>
     </div>
