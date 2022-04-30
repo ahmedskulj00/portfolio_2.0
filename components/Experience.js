@@ -17,7 +17,7 @@ const Experience = () => {
             <p data-aos="fade">repositories</p>
           </div>
           <div className={styles.info_box}>
-            <p data-aos="fade">9</p>
+            <p data-aos="fade">10</p>
             <p data-aos="fade">months</p>
             <p data-aos="fade">of experience</p>
           </div>
