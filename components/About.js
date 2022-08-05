@@ -31,9 +31,8 @@ const About = () => {
           <h4 className={styles.about_me}>About me</h4>
           <p>
             Hi, I&apos;m Ahmed Skulj. I&apos;m a Junior Frontend Developer from
-            Bosnia and Herzegovina. Currently, I&apos;m studying Software
-            Engineering at the University of Zenica. Apart from studying I also
-            work as a Junior Frontend Developer.{" "}
+            Bosnia and Herzegovina. I also have a Bachelor&apos;s degree in
+            Software Engineering.{" "}
           </p>
           <p>
             In my spare time I like to play video games. My favourite game of
