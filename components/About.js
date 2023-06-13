@@ -30,9 +30,9 @@ const About = () => {
         <div className={styles.text_container}>
           <h4 className={styles.about_me}>About me</h4>
           <p>
-            Hi, I&apos;m Ahmed Skulj. I&apos;m a Junior Frontend Developer from
-            Bosnia and Herzegovina. I also have a Bachelor&apos;s degree in
-            Software Engineering.{" "}
+            Hi, I&apos;m Ahmed Skulj. I&apos;m a Software Engineer from Bosnia
+            and Herzegovina with a Bachelor&apos;s degree in Software
+            Engineering.
           </p>
           <p>
             In my spare time I like to play video games. My favourite game of

@@ -12,7 +12,7 @@ const Hero = () => {
         </div>
         <p className={styles.name}>Ahmed Škulj</p>
         <p className={styles.short_description}>
-          Junior Frontend Developer from Bosnia and Herzegovina
+          Software Enginner from Bosnia and Herzegovina
         </p>
         <div className={styles.button_container}>
           <div className={styles.button_inner_container}>
