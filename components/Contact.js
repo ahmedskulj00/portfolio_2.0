@@ -28,15 +28,6 @@ const Contact = () => {
               looking forward to hearing from you!
             </p>
           </div>
-          <div className={styles.email_container}>
-            <div className={styles.icon_container}>
-              <Image src={Email} alt="email_icon" />
-            </div>
-            <div className={styles.email_info}>
-              <h5>Email</h5>
-              <p>ahmedskulj10@gmail.com</p>
-            </div>
-          </div>
         </div>
         <div className={styles.form_section}>
           {!state.succeeded ? (
