@@ -33,7 +33,7 @@ const Footer = () => {
           </a>
         </div>
         <p className={styles.copyright}>
-          Copyright ©2022 Ahmed Skulj. All Rights Reserved.
+          Copyright ©{new Date().getFullYear()} Ahmed Skulj. All Rights Reserved.
         </p>
       </div>
     </div>
